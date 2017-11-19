@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+nav {
+  display: inline-block;
+  text-align: right;
+}
+
+nav a {
+  color: #000000;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo span {
+  color: MediumAquamarine;
+}
+
+.logo img {
+  margin-right: 12px;
+}
