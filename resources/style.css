@@ -11,21 +11,6 @@ header {
   height: 80px;
 }
 
-/* Navigation */
-
-nav {
-  padding-right: 40px;
-}
-
-nav span {
-  display: inline-block;
-  padding: 20px 10px;
-}
-
-nav a {
-  color: #000000;
-}
-
 /* Logo */
 
 .logo {
@@ -41,4 +26,47 @@ nav a {
 
 .logo span {
   color: MediumAquamarine;
+}
+
+/* Navigation */
+
+nav {
+  padding-right: 40px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+nav a {
+  color: #000000;
+}
+
+/* Main Container */
+
+.main {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.main div {
+  border: 1px solid black;
 }
