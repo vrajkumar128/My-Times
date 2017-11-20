@@ -90,12 +90,12 @@ nav a {
   font-size: 30px;
   color: white;
   text-align: center;
+  align-items: center;
 }
 
 .image.main {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
   font-size: 40px;
-  text-align: left;
 }
 
 .image.fall {
