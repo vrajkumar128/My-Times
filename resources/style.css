@@ -110,10 +110,6 @@ nav a {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
 }
 
-.image.cookie {
-  height: auto;
-}
-
 /* Text Containers */
 
 .story {
@@ -122,6 +118,12 @@ nav a {
 }
 
 .story span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.story p {
   font-family: Georgia;
   font-size: 17px;
   color: black;
@@ -132,7 +134,7 @@ nav a {
   height: 250px;
 }
 
-/*News Bites */
+/* News Bites */
 
 .news_bites {
   display: flex;
@@ -152,5 +154,27 @@ nav a {
   font-size: 16px;
   font-weight: bold;
   text-align: center;
-  padding-bottom: 25px;
+  margin-bottom: 41px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  margin: auto;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#title {
+ font-family: Georgia;
+ font-size: 16px;
+ font-weight: bold;
+ color: white;
 }
