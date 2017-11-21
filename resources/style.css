@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 /* Header */
 
 header {
@@ -53,6 +57,7 @@ nav a {
 .content {
   display: flex;
   padding-top: 116px;
+  margin: 0 auto 78px auto;
 }
 
 .column {
